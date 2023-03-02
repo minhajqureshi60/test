@@ -49,7 +49,7 @@ sudo apt-get install jenkins
 cd /var/lib/jenkins/workspace/aqsquare
 docker-compose build
 docker-compose up
-# configued the build step in jenkins by:
+# configured the build step in jenkins by:
 echo minhaj00 | sudo -S docker-compose build
 
 # Start the Docker container
