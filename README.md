@@ -60,7 +60,7 @@ sudo usermod -aG docker jenkins
 sudo systemctl restart jenkins
 # run the project in jenkins 
 
-# usnig webhooks for automation 
+# using webhooks for automation 
 webhooks:it is added for automation and it will automatedly triggerfor gitscm pulling
 install the github integration plugins in jenkins and then go the github and configure the webhook
 $ projectsettings<webhooks<Add webhook < payloadurl(copy the ip of jenkins ie: ip of jenkins/github-webhook/)
@@ -76,5 +76,5 @@ run ip of ngrok in will give jenkinsserver directly
 after configuring webhook in github and configure the settings in jenkins server
 configure< build trigger< github hook trigger for GITSCM polling < save 
 make changes in source code 
-jenkins will automatically build the code and automate the process of CI/CD
+# now jenkins will automatically build the code and automate the process
 
